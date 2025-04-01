@@ -173,6 +173,14 @@ function App() {
           </div>
 
           {/* Evento 2 */}
+          <div data-aos="fade-up" data-aos-delay="300">
+            <div className="absolute -left-[28px] top-1 w-5 h-5 bg-pink-500 rounded-full border-2 border-white"></div>
+
+            <h3 className="text-xl font-semibold text-white">13 Abril 2017</h3>
+            <p className="text-pink-100">Nosso primeiro beijo ❤️</p>
+          </div>
+
+          {/* Evento 3 */}
           <div data-aos="fade-up" data-aos-delay="150">
             <div className="absolute -left-[28px] top-1 w-5 h-5 bg-pink-500 rounded-full border-2 border-white"></div>
 
@@ -181,16 +189,6 @@ function App() {
               Nosso primeiro Dia dos Namorados juntos 💐
             </p>
           </div>
-
-          {/* Evento 3 */}
-          {/* <div data-aos="fade-up" data-aos-delay="300">
-            <div className="absolute -left-[28px] top-1 w-5 h-5 bg-pink-500 rounded-full border-2 border-white"></div>
-
-            <h3 className="text-xl font-semibold text-white">01 Agosto 2020</h3>
-            <p className="text-pink-100">
-              Começamos a morar juntos. Um lar cheio de amor e café ☕❤️
-            </p>
-          </div> */}
 
           {/* Evento 4 */}
           <div data-aos="fade-up" data-aos-delay="450">
