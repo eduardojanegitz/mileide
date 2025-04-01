@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+/* 
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes heart-fall {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(300px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.animate-heart-fall {
+  animation: heart-fall 3s ease-in forwards;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes heart-fall {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(300px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.animate-heart-fall {
+  animation: heart-fall 3s ease-in forwards;
+}
+
+@keyframes float-stars {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+}
+
+.stars-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 30%, #ffffff33 1px, transparent 1px),
+              radial-gradient(circle at 60% 80%, #ffffff22 1px, transparent 1px),
+              radial-gradient(circle at 20% 50%, #ffffff22 2px, transparent 2px),
+              radial-gradient(circle at 80% 40%, #ffffff44 2px, transparent 2px);
+  background-size: 200px 200px;
+  animation: float-stars 6s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
