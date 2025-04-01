@@ -13,6 +13,9 @@ const images = [
   "/images/love2.JPEG",
   "/images/love3.JPEG",
   "/images/love4.JPEG",
+  // "/images/love5.JPEG",
+  "/images/love6.JPEG",
+  "/images/love7.JPEG",
 ];
 
 const startDate = new Date(2017, 5, 21);
@@ -89,7 +92,6 @@ function App() {
   };
 
   return (
-    // <div className="min-h-screen w-full bg-gradient-to-br from-indigo-200 via-purple-200 to-blue-100 flex flex-col items-center justify-between p-6 relative overflow-hidden font-sans">
     <div
       className="min-h-screen w-full bg-cover bg-center relative overflow-hidden font-sans flex flex-col items-center justify-between p-6"
       style={{
@@ -149,7 +151,8 @@ function App() {
         </h2>
         <p className="text-lg text-indigo-200">
           {duration.years} anos, {duration.months} meses, {duration.days} dias,{" "}
-          {duration.hours} horas e {duration.seconds} segundos 💕
+          {duration.hours} horas, {duration.minutes} minutos e{" "}
+          {duration.seconds} segundos 💕
         </p>
       </div>
 
